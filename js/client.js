@@ -1,4 +1,5 @@
 const socket = io("http://localhost:8000");
+//const port = process.env.PORT || 3000;
 
 // Get DOM elements in respective Js variables
 const form = document.getElementById("send-container");
